@@ -800,6 +800,12 @@
     "failure_short": "✗",
     "no_requests": "無請求"
   },
+  "service_health": {
+    "title": "服務健康監測",
+    "window": "最近 7 天",
+    "oldest": "最早",
+    "newest": "最新"
+  },
   "logs": {
     "title": "記錄檢視",
     "refresh_button": "重新整理記錄",
