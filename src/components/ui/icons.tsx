@@ -489,6 +489,25 @@ export function IconSidebarQuota({ size = 20, ...props }: IconProps) {
   );
 }
 
+export function IconSidebarUsage({ size = 20, ...props }: IconProps) {
+  return (
+    <svg {...baseSvgProps} width={size} height={size} {...props}>
+      <path d="M3.5 20h17" />
+      <rect x="5" y="13" width="3.5" height="7" rx="0.5" />
+      <rect
+        x="10.25"
+        y="7"
+        width="3.5"
+        height="13"
+        rx="0.5"
+        fill="currentColor"
+        fillOpacity="0.12"
+      />
+      <rect x="15.5" y="10" width="3.5" height="10" rx="0.5" />
+    </svg>
+  );
+}
+
 export const IconSidebarLogs = IconScrollText;
 
 export function IconSidebarSystem({ size = 20, ...props }: IconProps) {
@@ -498,6 +517,23 @@ export function IconSidebarSystem({ size = 20, ...props }: IconProps) {
       <rect width="20" height="8" x="2" y="14" rx="2" />
       <line x1="6" x2="6.01" y1="6" y2="6" />
       <line x1="6" x2="6.01" y1="18" y2="18" />
+    </svg>
+  );
+}
+
+export function IconDiamond({ size = 20, ...props }: IconProps) {
+  return (
+    <svg {...baseSvgProps} width={size} height={size} {...props}>
+      <path d="M2.7 10.3a2.41 2.41 0 0 0 0 3.41l7.59 7.59a2.41 2.41 0 0 0 3.41 0l7.59-7.59a2.41 2.41 0 0 0 0-3.41l-7.59-7.59a2.41 2.41 0 0 0-3.41 0Z" />
+    </svg>
+  );
+}
+
+export function IconTrendingUp({ size = 20, ...props }: IconProps) {
+  return (
+    <svg {...baseSvgProps} width={size} height={size} {...props}>
+      <path d="M16 7h6v6" />
+      <path d="m22 7-8.5 8.5-5-5L2 17" />
     </svg>
   );
 }
